@@ -1,9 +1,9 @@
 {
     "rewrites": [
-        { "source": "/", "destination": "https://api.openai.com" },
+        { "source": "/", "destination": "https://proxy.aigc123.site" },
         {
             "source": "/:match*",
-            "destination": "https://api.openai.com/:match*"
+            "destination": "https://proxy.aigc123.site/:match*"
         }
     ],
     "github": {
